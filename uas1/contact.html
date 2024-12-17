@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Eco Products</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-50 font-sans leading-relaxed">
+
+  <!-- Header -->
+  <header class="bg-green-700 py-4">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <h1 class="text-2xl font-bold text-white">EcoShop</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="font-semibold text-white">Home</a>
+        <a href="products.html" class="font-semibold text-white">Products</a>
+        <a href="contact.html" class="font-semibold text-white">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center px-6">
+
+      <!-- Left Side: Form -->
+      <form class="bg-gray-50 p-8 rounded-lg shadow-2xl border border-gray-200">
+        <h2 class="text-4xl font-bold text-green-700 mb-6">Get in Touch</h2>
+        <p class="text-gray-600 mb-8">We'd love to hear from you! Feel free to send a message.</p>
+
+        <div class="mb-4">
+          <label for="name" class="block text-gray-700 font-medium mb-1">Your Name</label>
+          <input type="text" id="name" placeholder="John Doe"
+            class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:outline-none">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-gray-700 font-medium mb-1">Email Address</label>
+          <input type="email" id="email" placeholder="example@mail.com"
+            class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:outline-none">
+        </div>
+        <div class="mb-6">
+          <label for="message" class="block text-gray-700 font-medium mb-1">Message</label>
+          <textarea id="message" rows="5" placeholder="Write your message..."
+            class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:outline-none"></textarea>
+        </div>
+
+        <button type="submit"
+          class="w-full bg-green-500 text-white py-3 rounded-lg font-bold hover:bg-green-600 transition duration-300">
+          <i class="fas fa-paper-plane mr-2"></i>Send Message
+        </button>
+      </form>
+
+      <!-- Right Side: Contact Details -->
+      <div class="text-center md:text-left">
+        <img src="images/contact1.jpg" alt="Contact Us" class="mb-8 rounded-lg shadow-lg">
+        <div class="space-y-6">
+          <!-- Phone -->
+          <div class="flex items-center justify-center md:justify-start">
+            <div class="bg-green-500 text-white rounded-full p-3 mr-4">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <span class="text-gray-700 text-lg">(123) 456-7890</span>
+          </div>
+          <!-- Email -->
+          <div class="flex items-center justify-center md:justify-start">
+            <div class="bg-green-500 text-white rounded-full p-3 mr-4">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <span class="text-gray-700 text-lg">contact@ecoproducts.com</span>
+          </div>
+          <!-- Address -->
+          <div class="flex items-center justify-center md:justify-start">
+            <div class="bg-green-500 text-white rounded-full p-3 mr-4">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <span class="text-gray-700 text-lg">123 Green Street, Sustainability City</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2024 Eco Products. All rights reserved.</p>
+  </footer>
+</body>
+</html>
